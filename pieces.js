@@ -9,11 +9,12 @@ let pieces = [];
 
 // Récupération des pièces via l'API
 async function recupererPieces() {
-    const response = await fetch("http://localhost:8081/pieces");
+    const response = await fetch("https://api-pieces-autos.onrender.com/pieces");
     pieces = await response.json();
     genererPieces(pieces);
     await afficherGraphiqueAvis(); // Affiche le graphique initialement
 }
+
 
 // Génération des pièces dans le DOM
 function genererPieces(pieces) {

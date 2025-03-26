@@ -12,7 +12,7 @@ function genererEtoilesHTML(nbEtoiles) {
 
 export async function afficherAvis(idPiece, pieceElement) {
     try {
-        const response = await fetch("http://localhost:8081/avis");
+        const response = await fetch("https://api-pieces-autos.onrender.com/avis");
         const tousLesAvis = await response.json();
         const avisFiltres = tousLesAvis.filter(avis => avis.pieceId === parseInt(idPiece));
 
@@ -62,7 +62,7 @@ export function ajoutListenerEnvoyerAvis() {
         };
 
         try {
-            const response = await fetch("http://localhost:8080/avis", {
+            const response = await fetch("https://api-pieces-autos.onrender.com/avis", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(avis),
