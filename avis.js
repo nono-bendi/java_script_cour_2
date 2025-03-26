@@ -82,7 +82,7 @@ export function ajoutListenerEnvoyerAvis() {
 
 // Fonction pour afficher le graphique des avis
 export async function afficherGraphiqueAvis() {
-    const avis = await fetch("http://localhost:8081/avis").then(response => response.json());
+    const avis = await fetch("https://api-pieces-autos.onrender.com/avis").then(response => response.json());
     const labels = ["1 étoile", "2 étoiles", "3 étoiles", "4 étoiles", "5 étoiles"];
     const nbCommentaires = [0, 0, 0, 0, 0];
 
