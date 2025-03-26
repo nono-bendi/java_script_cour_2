@@ -1,22 +1,31 @@
 {
-  "name": "api-http",
+
+  "name": "7697016-front-end.1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Support de Code pour le cours OpenClassrooms Creez des pages web dynamiques avec javascript",
+  "main": "pieces.js",
+ 
   "scripts": {
-    "start": "npm run start:api & npm run start:front",
-    "start:api": "json-server --port 8081 --no-cors db.json",
-    "start:front": "live-server front/",
-    "dev": "concurrently \"npm run start:api\" \"npm run start:front\""
+  "start": "json-server --watch db.json --port 8081",
+  "dev": "http-server",
+  "lint": "eslint *.js"
+},
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1.git"
   },
-  "author": "",
+  "author": "OpenClassrooms",
   "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.0",
-    "concurrently": "^7.6.0"
+  "bugs": {
+    "url": "https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/issues"
   },
-  "devDependencies": {
-    "@faker-js/faker": "^6.3.1",
-    "live-server": "^1.2.2"
+  "homepage": "https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1#readme",
+  "dependencies": {
+    "chart.js": "^4.1.2",
+    "http-server": "^14.1.1"
   }
+
 }
+
