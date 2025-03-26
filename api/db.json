@@ -1,0 +1,145 @@
+{
+  "avis": [
+    {
+      "id": 1,
+      "pieceId": 1,
+      "utilisateur": "Jean Dupont",
+      "commentaire": "Très satisfait, éclaire bien et consomme peu.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 2,
+      "pieceId": 2,
+      "utilisateur": "Sophie Martin",
+      "commentaire": "Bon produit mais un peu cher.",
+      "nbEtoiles": 4
+    },
+    {
+      "id": 3,
+      "pieceId": 3,
+      "utilisateur": "Hugo Durand",
+      "commentaire": "Ne fonctionne pas bien, mauvaise qualité.",
+      "nbEtoiles": 2
+    },
+    {
+      "id": 4,
+      "pieceId": 4,
+      "utilisateur": "Alice Leroy",
+      "commentaire": "Super liquide de frein, efficace.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 5,
+      "pieceId": 5,
+      "utilisateur": "Luc Dubois",
+      "commentaire": "Essuie-glace performant, aucun bruit.",
+      "nbEtoiles": 4
+    },
+    {
+      "id": 6,
+      "pieceId": 1,
+      "utilisateur": "Marie Lefebvre",
+      "commentaire": "Bonne ampoule, mais un peu chère.",
+      "nbEtoiles": 4
+    },
+    {
+      "id": 7,
+      "pieceId": 2,
+      "utilisateur": "Antoine Bernard",
+      "commentaire": "Freinage impeccable, rien à dire.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 8,
+      "pieceId": 3,
+      "utilisateur": "Emma Morel",
+      "commentaire": "Ampoule pas très lumineuse.",
+      "nbEtoiles": 3
+    },
+    {
+      "id": 9,
+      "pieceId": 4,
+      "utilisateur": "Lucas Garnier",
+      "commentaire": "Liquide de frein correct, fait le travail.",
+      "nbEtoiles": 4
+    },
+    {
+      "id": 10,
+      "pieceId": 5,
+      "utilisateur": "Julie Petit",
+      "commentaire": "Durabilité à voir, mais bonne impression.",
+      "nbEtoiles": 4
+    },
+    {
+      "id": 11,
+      "pieceId": 1,
+      "utilisateur": "Paul Richard",
+      "commentaire": "Éclaire bien la route, parfait pour la nuit.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 12,
+      "pieceId": 2,
+      "utilisateur": "Noémie Fontaine",
+      "commentaire": "Freins très puissants, je recommande.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 13,
+      "pieceId": 3,
+      "utilisateur": "Clara Lambert",
+      "commentaire": "Ampoule de mauvaise qualité.",
+      "nbEtoiles": 2
+    },
+    {
+      "id": 14,
+      "pieceId": 4,
+      "utilisateur": "Adrien Muller",
+      "commentaire": "Liquide de frein un peu cher.",
+      "nbEtoiles": 3
+    },
+    {
+      "id": 15,
+      "pieceId": 5,
+      "utilisateur": "Isabelle Girard",
+      "commentaire": "Silencieux et efficace, parfait.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 16,
+      "pieceId": 1,
+      "utilisateur": "Camille Caron",
+      "commentaire": "Ampoule correcte mais durée de vie moyenne.",
+      "nbEtoiles": 3
+    },
+    {
+      "id": 17,
+      "pieceId": 2,
+      "utilisateur": "Vincent Blanchard",
+      "commentaire": "Freins solides, testés sur route humide.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 18,
+      "pieceId": 3,
+      "utilisateur": "Chloé Marchand",
+      "commentaire": "Ampoule grillée après 2 semaines.",
+      "nbEtoiles": 1
+    },
+    {
+      "id": 19,
+      "pieceId": 4,
+      "utilisateur": "Thomas Perrin",
+      "commentaire": "Liquide de frein efficace, facile à verser.",
+      "nbEtoiles": 5
+    },
+    {
+      "id": 20,
+      "pieceId": 5,
+      "utilisateur": "Laura Jacquet",
+      "commentaire": "Produit au top, j’en rachèterai.",
+      "nbEtoiles": 5
+    }
+  ]
+}
+

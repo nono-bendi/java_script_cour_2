@@ -1,0 +1,22 @@
+{
+  "name": "api-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:api & npm run start:front",
+    "start:api": "json-server --port 8081 --no-cors db.json",
+    "start:front": "live-server front/",
+    "dev": "concurrently \"npm run start:api\" \"npm run start:front\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "concurrently": "^7.6.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "live-server": "^1.2.2"
+  }
+}
