@@ -22,5 +22,3 @@ Projet dynamique avec **JavaScript**, utilisant une fausse API avec `json-server
 
 ---
 
-## 📁 Organisation
-
